@@ -1,0 +1,8 @@
+@use './utils/colors';
+
+:export {
+  colorText: colors.$colorText;
+  colorPrimary: colors.$colorPrimary;
+  colorLink: colors.$colorLink;
+  colorBorder: colors.$colorBorder;
+}

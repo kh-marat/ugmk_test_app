@@ -1,0 +1,9 @@
+@use 'scss/utils/func.scss';
+@use 'scss/utils/colors.scss';
+@use 'scss/utils/vars.scss';
+
+.Card {
+  border: 1px solid colors.$colorBorder;
+  padding: func.rem(16);
+  border-radius: vars.$borderRadius;
+}

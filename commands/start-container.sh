@@ -1,0 +1,1 @@
+docker run --rm -p 3000:80 ugmk_test_app

@@ -1,0 +1,1 @@
+docker build . -t ugmk_test_app -f docker/Dockerfile --force-rm

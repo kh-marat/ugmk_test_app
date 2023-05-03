@@ -1,0 +1,9 @@
+@use 'scss/utils/func.scss';
+
+.CommonBarChart {
+  height: func.rem(500);
+
+  &__bar {
+    cursor: pointer;
+  }
+}

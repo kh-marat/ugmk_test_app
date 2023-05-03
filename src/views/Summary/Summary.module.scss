@@ -1,0 +1,13 @@
+@use 'scss/utils/func.scss';
+
+.Summary {
+  &__filter {
+    margin-bottom: func.rem(24);
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: flex-end;
+    gap: func.rem(16);
+  }
+}

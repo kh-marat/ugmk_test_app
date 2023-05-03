@@ -13,7 +13,7 @@
     npm run type
     ```
    
-3. Run mock-server:
+3. Run mock-server at [localhost:3001](http://localhost:3001/):
 
     ```sh
     npm run start-server
@@ -31,7 +31,7 @@
     npm run dockerize
     ```
 
-6. Start project in docker container proxied by nginx:
+6. Start project in docker container proxied by nginx at [localhost:3000](http://localhost:3000/):
 
     ```sh
     npm run start-contaner
@@ -45,5 +45,6 @@
 
 ### TODO:
 1. Add and configure `eslint` + `prettier`
-2. Move `API_BASE_URL` to `.env`
-3. Move `ui` to separate workspace
+2. Add `husky` and `precommit` hook
+3. Move `API_BASE_URL` to `.env`
+4. Move `ui` to separate workspace
